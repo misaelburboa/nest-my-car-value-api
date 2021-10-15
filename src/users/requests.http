@@ -1,0 +1,48 @@
+### Create a new user
+
+POST http://localhost:4000/auth/signup
+content-type: application/json
+
+{
+  "email": "misaelburboa@hotmail.com",
+  "password": "SomePassword123"
+}
+
+### Signs in a user
+
+POST http://localhost:4000/auth/signin
+content-type: application/json
+
+{
+  "email": "misaelburboa@hotmail.com",
+  "password": "SomePassword123"
+}
+
+### Sign out
+
+POST http://localhost:4000/auth/signout
+
+### Get currently signed in user
+
+GET http://localhost:4000/auth/whoami
+
+### Find a particular user with a given ID
+
+GET http://localhost:4000/auth/2
+
+### Find all users with a given email
+
+GET http://localhost:4000/auth?email=cmburboa@gmail.com
+
+### Delete a user with a given id
+
+DELETE http://localhost:4000/auth/2
+
+### Update a user
+
+PATCH http://localhost:4000/auth/2
+content-type: application/json
+
+{
+  "email": "cmburboa@gmail.com"
+}
