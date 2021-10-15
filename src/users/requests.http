@@ -15,7 +15,7 @@ content-type: application/json
 
 {
   "email": "misaelburboa@hotmail.com",
-  "password": "SomePassword123"
+  "password": "SomePassword1234"
 }
 
 ### Sign out
