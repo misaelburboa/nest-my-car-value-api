@@ -24,7 +24,7 @@ module.exports = class initialSchema1625847615203 {
             type: 'varchar',
           },
           {
-            name: 'admin',
+            name: 'isAdmin',
             type: 'boolean',
             default: 'true',
           },
@@ -43,7 +43,7 @@ module.exports = class initialSchema1625847615203 {
             isGenerated: true,
             generationStrategy: 'increment',
           },
-          { name: 'approved', type: 'boolean', default: 'false' },
+          { name: 'isApproved', type: 'boolean', default: 'false' },
           { name: 'price', type: 'float' },
           { name: 'make', type: 'varchar' },
           { name: 'model', type: 'varchar' },

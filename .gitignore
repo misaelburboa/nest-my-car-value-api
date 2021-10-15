@@ -36,3 +36,7 @@ lerna-debug.log*
 
 .env.development
 .env.test
+
+#database files
+db.sqlite
+test.sqlite
